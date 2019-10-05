@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="1dp"
+    android:background="#ffffff"
+    >
+<RelativeLayout
+    android:background="#ffffff"
+    android:id="@+id/question_relative"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+   <de.hdodenhof.circleimageview.CircleImageView
+       android:layout_width="30dp"
+       android:layout_height="30dp"
+       android:src="@drawable/person"
+       android:id="@+id/questioncard_circleimage"
+       android:layout_marginTop="5dp"
+       android:layout_marginLeft="5dp"
+       android:layout_alignParentLeft="true"
+       />
+
+    <TextView
+        android:id="@+id/questioncard_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:text="username"
+        android:layout_marginLeft="40dp"
+        android:textSize="17sp"
+        android:layout_marginTop="7dp"
+        />
+    <TextView
+        android:id="@+id/questioncard_ques"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_below="@+id/questioncard_username"
+        android:text="Here is the sample question look like this"
+        android:layout_margin="4dp"
+        android:padding="4dp"
+        android:gravity="start"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/questioncard_ques"
+        android:text="current time"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:id="@+id/questioncard_currenttime"
+        />
+</RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

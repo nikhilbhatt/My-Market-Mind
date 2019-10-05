@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:background="#ffffff"
+    >
+    <RelativeLayout
+        android:id="@+id/comment_card_relative_alyout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:background="#FFFFFF">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:id="@+id/commentcard_image"
+            android:src="@drawable/person"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            />
+        <TextView
+            android:id="@+id/commentcard_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:padding="4dp"
+            android:textSize="17dp"
+            android:layout_marginLeft="25dp"
+            />
+        <TextView
+            android:id="@+id/commentcard_reply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:layout_below="@+id/commentcard_user_name"
+            android:text="This textview will contain the comment of each user"
+            android:layout_marginLeft="10dp"
+            android:lines="2"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_below="@+id/commentcard_reply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/commentcard_time"
+            android:text="current time"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"/>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

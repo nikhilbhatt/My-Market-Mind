@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/commentdialog_edittext"
+        android:lines="5"
+        android:gravity="start"
+        android:hint="Write your reply"
+        android:textSize="15sp"/>
+
+</LinearLayout>
