@@ -1,5 +1,4 @@
 # My-Market-Mind
-This app will contain Motivational content
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/nikhilbhatt/My-Market-Mind/blob/master/LICENSE)   [![Contributors](https://img.shields.io/badge/CoNTRIBUTORS-1-red)](https://github.com/nikhilbhatt/My-Market-Mind/graphs/contributors)  [![Built for](https://img.shields.io/badge/BUILT%20FOR-ANDORID-brightgreen)](https://www.android.com/)
 
