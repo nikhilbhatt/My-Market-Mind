@@ -16,12 +16,12 @@ My-Market-Mind is an Application Which contain Motivational content.
    4. Navigate to folder My-Market-Mind/build/outputs/apk/debug and install the .apk file in your android device.
 
 # Features
-   1.Google sign in Api.
-   2.Firebase Firestore.
-   3.Firebase Storage.
-   4.Recycler view.
-   5.Card View.
-   6.View pager.
+   1. Google sign in Api.
+   2. Firebase Firestore.
+   3. Firebase Storage.
+   4. Recycler view.
+   5. Card View.
+   6. View pager.
    
 # Screenshots
 
